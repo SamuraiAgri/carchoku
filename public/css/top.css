@@ -1,0 +1,167 @@
+body{
+    width:100%; /*ページ全体の幅は100%と指定する*/	
+    text-align:center; /*ページ全体を中央揃えにする*/
+  }
+.wrapper {
+    width: 960px;	   /*全体の幅を指定する*/  
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    text-align:left;   /*全体を左揃えにする。*/
+}
+a {
+    transition: color ease-in 0.15s;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, arial, "YuGothicM", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "helvetica neue", helvetica, verdana, arial, meiryo, sans-serif;
+    text-align: justify;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* コンタクトフォーム */
+.os-contact {
+    width: 714px;
+    margin: 0 0 29px auto;
+    padding: 19px 31px 19px 6px;
+    background-color: #f5f5f5;
+}
+.os-contact_box-hd {
+    padding-bottom: 3px;
+    font-size: 13px;
+}
+.os-contact_box-num {
+    color: #cd8648;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.os-contact_mail a {
+    display: inline-block;
+    height: 44px;
+    padding: 0 21px 0 52px;
+    border-radius: 3px;
+    background-size: 21px auto;
+    color: #fff;
+    text-decoration: none;
+    line-height: 44px;
+}
+.os-contact_box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #111;
+    font-size: 100%;
+    font-weight: normal;
+    list-style: none;
+    text-decoration: none;
+}
+/* メイン */
+.os-recom-ser-holder {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.site-top-heading {
+    margin-bottom: 12px;
+    font-family: '游明朝体', 'Yu Mincho', YuMincho, 'ヒラギノ明朝 Pro', 'Hiragino Mincho Pro', 'MS P明朝', 'MS PMincho', serif;
+    font-size: 18px;
+    font-feature-settings: "palt";
+    letter-spacing: 0.15ex;
+    text-align: center;
+}
+.os-ranking_ttl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+    font-size: 24px;
+    text-align: center;
+}
+img {
+    vertical-align: middle;
+}
+.os-recom--best {
+    margin-bottom: 30px;
+}
+.os-recom {
+    margin-bottom: 30px;
+}
+.os-recom-ser-link {
+    display: flex;
+    flex-direction: column;
+    width: 341px;
+    height: 100%;
+}
+.opacity {
+    opacity: 1;
+    transition: opacity ease-in-out 0.2s;
+}
+a {
+    transition: color ease-in 0.15s;
+}
+.pagetop {
+    width: 980px;
+    margin: 0 auto 44px;
+    text-align: right;
+}
+.pagetop a {
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 16px;
+}
+.pagetop a::after {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-left: 12px;
+    background: url(/img/common/icon-top.png) center center no-repeat rgb(31, 18, 18);
+    background-size: 13px auto;
+    vertical-align: middle;
+}
+.os-contact_mail a {
+    display: inline-block;
+    height: 44px;
+    padding: 0 21px 0 52px;
+    border-radius: 3px;
+    background: url(/sp/img/common/icon_envelope_cut.svg) 20px center no-repeat #cd8648;
+    background-size: 21px auto;
+    color: #fff;
+    text-decoration: none;
+    line-height: 44px;
+}
+.os-contact_row {
+    display: flex;
+    align-items: center;
+}
+article {
+    width: 980px;
+    margin: auto;
+    padding-top: 20px;
+}
+.top-mvslide {
+    visibility: hidden;
+    overflow: hidden;
+    height: 312px;
+    width: 100%;
+    margin-bottom: 32px;
+    box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 34%);
+}
+.os-ranking_ttl-sub {
+    margin-top: 5px;
+    color: #9a9a9a;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 12px;
+}

@@ -16,6 +16,36 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('top');
 });
-Route::get('/test', function () {
-    return view('test');
+Route::get('/static/reason', function () {
+    return view('static.reason');
+});
+Route::get('/static/calender', function () {
+    return view('static.calender');
+});
+Route::get('/static/guarantee', function () {
+    return view('static.guarantee');
+});
+Route::get('/static/flow', function () {
+    return view('static.flow');
+});
+Route::get('/static/set-wari', function () {
+    return view('static.set-wari');
+});
+Route::get('/static/repeat-wari', function () {
+    return view('static.repeat-wari');
+});
+Route::get('/static/delivery', function () {
+    return view('static.delivery');
+});
+Route::get('/static/payment', function () {
+    return view('static.payment');
+});
+Route::get('/static/law', function () {
+    return view('static.law');
+});
+Route::get('/static/company', function () {
+    return view('static.company');
+});
+Route::get('/static/sitemap', function () {
+    return view('static.sitemap');
 });

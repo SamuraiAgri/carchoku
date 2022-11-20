@@ -1,0 +1,113 @@
+/* ヘッダー */
+.g-header {
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    text-align:left;   /*全体を左揃えにする。*/
+    width: 960px;	   /*全体の幅を指定する*/  
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    text-align:left;   /*全体を左揃えにする。*/
+}
+.g-header-head {
+    display: flex;
+    align-items: baseline;
+}
+.g-header-foot {
+    display: flex;
+    align-items: center;
+    height: 111px;
+    width: 960px;	   /*全体の幅を指定する*/  
+}
+.g-header_bahd {
+    color: #555;
+    font-size: 11px;
+    letter-spacing: 0.1ex;
+}
+.g-header_link a {
+    font-size: 12px;
+}
+.g-header_logo--okawa {
+    width: 308px;
+}
+.g-header_appeal {
+    width: 360px;
+    margin-top: -3px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+.g-header_logo {
+    width: 285px;
+    vertical-align: unset;
+}
+img {
+    vertical-align: middle;
+}
+.g-nav-row:first-of-type .g-nav_list a {
+    height: 38px
+}
+
+.g-nav_list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    padding: 0.3rem 0;
+    color: #eee;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.g-nav_list li {
+    position: relative;
+    width: calc(100 / 6 * 1%);
+}
+.g-nav_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+}
+.g-nav-row:nth-of-type(1) {
+    border-bottom: 1px solid #333;
+    background: linear-gradient(to bottom, #282623 0%,#121212 100%);
+}
+.g-nav-row:nth-of-type(2) {
+    background: linear-gradient(to bottom, #1e1d1c 0%,#161616 100%);
+}
+.g-nav_list li::before, .g-nav_list li:last-of-type::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 16px;
+    margin: auto 0;
+    background-color: #fff;
+    opacity: 0.2;
+}
+.g-header-cnt_ttl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    margin: 0 auto 6px;
+    padding-top: 1px;
+    background-color: #e9ecf5;
+    font-size: 13px;
+    text-align: center;
+}
+.g-header-cnt_business {
+    display: flex;
+}
+.g-header-cnt_holiday {
+    margin-top: 3px;
+    font-size: 11px;
+}
+.g-header-cnt_show-calendar a {
+    color: #c78542;
+    font-size: 11px;
+}
+.g-header-cnt_show-calendar {
+    margin-top: -1px;
+    margin-left: 12px;
+}
